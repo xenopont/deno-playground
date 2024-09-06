@@ -1,0 +1,28 @@
+{
+  "imports": {},
+  "tasks": {},
+  "lint": {
+    "include": [
+      "src/"
+    ],
+    "exclude": [],
+    "rules": {
+      "tags": [
+        "recommended"
+      ],
+      "include": [
+        "ban-untagged-todo"
+      ],
+      "exclude": [
+        "no-unused-vars"
+      ]
+    }
+  },
+  "fmt": {
+    "include": [
+      "src/"
+    ],
+    "exclude": [],
+    "indentWidth": 2
+  }
+}
