@@ -1,0 +1,12 @@
+{
+  "name": "deno-playground",
+  "dockerComposeFile": [
+    "../docker/dev-composition.json"
+  ],
+  "service": "api-server",
+  "customizations": {
+    "jetbrains": {
+      "backend": "IntelliJ"
+    },
+  }
+}
